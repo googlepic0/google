@@ -1,3 +1,4 @@
+                  /*------------------------------- COMMON CSS START  ------------------------*/
 *{
     margin: 0;
     padding: 0;
@@ -7,6 +8,127 @@
 body{
     background-color: #ecf4fb;
 }
+
+.container{
+    width: 1170px;
+    margin: auto;
+
+}
+h1,h2,h3,h4,p{
+    margin: 0;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.menu_bar{
+    align-items: center;
+    justify-content: space-between;
+}
+:root{
+    --bg-clr:#02918c;
+    --text-clr:#ffff;
+    --cmm-fnt:"Open Sans", sans-serif;
+}
+
+                      /*---------------------------- COMMON CSS END ---------------------- */
+
+
+                      /*--------------------------  NAVIGATION START --------------------------- */
+.menu_bar{
+    display: flex;
+    flex-wrap:wrap;
+    
+}
+nav{
+    background-color: var(--bg-clr);
+    position: sticky;
+    top: 0;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.7);
+    z-index:100;
+}
+nav ul li{
+    display:inline-block;
+    padding: 26px 25px;
+    position: relative;
+}
+nav ul li a{
+    text-transform: uppercase;
+    color: var(--text-clr);
+    font-family: var(--cmm-fnt);
+    font-weight: 800;
+}
+nav .menu_bar ul li::after{
+    content: "";
+    position: absolute;
+    width: 0%;
+    height:5px;
+    bottom: 0;
+    left: 0;
+}
+nav .menu_bar ul li:hover::after{
+    background-color: #2e605f;
+    color:green;
+    width: 100%;
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+}
+
+nav .menu_bar ul li:hover{
+    background-color: #04a29d6a;
+    color: #ffffffca;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+}
+img{
+    cursor: pointer;
+}
+
+nav .menu_iteam{
+    background-color: #022424;
+    position: absolute;
+    width: 200px;
+    top:50px;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+}
+nav .menu_iteam li{
+    display:block;
+    width:100%;
+}
+nav .menu_iteam li a{
+    width:100%;
+    display: block;
+    text-align: center;
+}
+nav ul .menu_cls:hover .menu_iteam{
+  opacity: 1;
+  visibility: visible;
+  top: 74px;
+  transition: all 1s ease;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  -o-transition: all 1s ease;
+}
+.menu_iteam li{
+    padding:20px ;
+}
+
+
+                         /* ------------------------ NAVIGATION END -------------------------- */
+
+
+
 .img_gallery{
     width: 80%;
     margin: 100px auto 0px;
