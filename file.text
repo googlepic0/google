@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PSD To HTML</title>
+    <!-- GOOGLE FONTS START -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+
+    <!-- GOOGLE FONTS END -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+             <!------------------------------ NAVIGATION START -------------------------->
+    <nav>
+        <div class="container">
+           <div class="menu_bar">
+             <img src="images/logo.png" alt="">
+            
+               <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Me</a></li>
+                    <li class="menu_cls"><a href="#">Services</a>
+                    <ul class="menu_iteam">
+                        <li><a href="#">Services 1</a></li>
+                        <li><a href="#">Services 2</a></li>
+                        <li><a href="#">Services 3</a></li>
+                        <li><a href="#">Services 4</a></li>
+                        <li><a href="#">Services 5</a></li>
+                    </ul>
+                    </li>
+                    <li><a href="#">My Work</a></li>
+                    <li><a href="#">Contact Me</a></li>
+                    
+                </ul>
+          
+           </div>
+        </div>
+        
+   </nav>                            
+              <!------------------------------ NAVIGATION START -------------------------->                    
+              
+              
+              <!------------------------------ BANNER SECTION START ----------------------->
+    <section id="banner">
+      
+            <div class="banner-cnt">
+            <div class="bnr">
+                <h4>Lorem ipsum dolor sit amet consectetur.</h4>
+            <h1>incididunt bore</h1>
+            <p>orem ipsum sit amet, consectetur</p>
+            <div class="btn">
+                <img src="images/img-02.png" alt="">
+            </div>
+            <button>Know more</button>
+            </div>
+        </div>
+        
+        
+    </section>                          
+                  <!--------------------------- BANNER SECTION END --------------------------->
+
+
+                  <!--------------------------- ABOUT SECTION START  -------------------------->
+    <section>
+      
+         <div class="content-iteam">
+            <div class="text-cnt">
+                <h2>about me</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit veniam vitae eaque, consequuntur aliquid quae unde ratione fugit.</p>
+            <p>aliqua. Ut enim ad minim veniam,  <b>quis nostrud exercitation ullamco</b>  laboris nisi ut aliquip ex ea </p>
+            <p>commodo consequat duis aute irure dolor.</p>
+            <div class="div-cnt">
+                <div class="div-cnt_1 sub_cnt">
+                   <i class="fa-solid fa-lightbulb"></i>
+                    <h3>Title goes here</h3>
+                    <p>onsectetur adipisicing elit, sedo</p>
+                    <p>eiusmod tempor incidi</p>
+                    <p>et doloreserss mag.</p>
+                </div>
+                <div class="div-cnt_2 sub_cnt"> 
+                     <i class="fa-solid fa-pen"></i>
+                    <h3>Title goes here</h3>
+                    <p>onsectetur adipisicing elit, sedo</p>
+                    <p>eiusmod tempor incidi</p>
+                    <p>et doloreserss mag.</p>
+                </div>
+                <div class="div-cnt_3 sub_cnt"> 
+                     <i class="fa-solid fa-gear"></i>
+                    <h3>Title goes here</h3>
+                    <p>onsectetur adipisicing elit, sedo</p>
+                    <p>eiusmod tempor incidi</p>
+                    <p>et doloreserss mag.</p>
+                </div>
+                <div class="div-cnt_4 sub_cnt "> 
+                     <i class="fa-solid fa-lightbulb"></i>
+                    <h3>Title goes here</h3>
+                    <p>onsectetur adipisicing elit, sedo</p>
+                    <p>eiusmod tempor incidi</p>
+                    <p>et doloreserss mag.</p>
+                </div>
+            </div>
+            </div>
+            
+        </div> 
+      
+    </section>
+                  <!--------------------------- ABOUT SECTION EDN ---------------------------->
+  
+                  <!--------------------------- SERVICES SECTION START  ---------------------->
+<section id="services">
+    <div class="services_main">
+        <div class="services_sub">
+            <h2>Services</h2>
+            <img class="arry_img" src="images/img-04.png" alt="">
+            <p class="text_1">lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do </p>
+            <p class="text_2"> tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+
+
+      <div class="icon_all icon_position">
+        <div class="icon_1">
+            <img  src="images/icon_1.png" alt="">
+            <h4>Title goes here</h4>
+            <p> Onsectetur adipisicing elit, sedo </p>
+            <p>eiusmod tempor incidi</p>
+            <p>et dolorerserss eerhfre mag.</p>
+        </div>
+        <div class="icon_2">
+            <img  src="images/icon_2.png" alt="">
+            <h4>Title goes here</h4>
+            <p> Onsectetur adipisicing elit, sedo </p>
+            <p>eiusmod tempor incidi</p>
+            <p>et dolorerserss eerhfre mag.</p>
+        </div>
+        <div class="icon_3">
+            <img  src="images/icon_3.png" alt="">
+            <h4>Title goes here</h4>
+            <p> Onsectetur adipisicing elit, sedo </p>
+            <p>eiusmod tempor incidi</p>
+            <p>et dolorerserss eerhfre mag.</p>
+        </div>
+        <div class="icon_4">
+            <img  src="images/icon_4.png" alt="">
+            <h4>Title goes here</h4>
+            <p> Onsectetur adipisicing elit, sedo </p>
+            <p>eiusmod tempor incidi</p>
+            <p>et dolorerserss eerhfre mag.</p>
+        </div>
+       
+      </div>
+      
+
+    </div>
+
+</section> 
+                  <!-------------------------------- SERVICES SECTION END ------------------------------>
+
+
+        
+                  <!------------------------------- WORK SECTION START  ----------------------------------->
+     
+
+<section id="main_work">
+    <div class="work_main_div">
+        <div class="sub_work">
+           <div class="sub_work_1">
+             <div class="sub_work_1tk">
+                <h2>My Work</h2>
+                <img class="work_imgs" src="images/img-04.png" alt=""> 
+                <p class="work_p_1"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt  </p>
+                <p class="work_p_2"> ut labore et dolore magna aliqua.</p>
+            </div>
+           </div>
+            <div class="sub_work_2">
+
+                <div class="child_work_1">
+
+                    <div class="work_images_1">
+                          <div class="blar">
+                        <h4>Title goes here</h4>
+                        <p> onsectetur adipisicing elit, sedo   </p>
+                        <p>eiusmod tempor incidi </p>
+                        <p>et dolorerserss eerhfre mag.</p>
+                    </div>
+                    </div>
+                    <div class="work_images_2">
+                          <div class="blar">
+                        <h4>Title goes here</h4>
+                        <p> onsectetur adipisicing elit, sedo   </p>
+                        <p>eiusmod tempor incidi </p>
+                        <p>et dolorerserss eerhfre mag.</p>
+                    </div>
+                    </div>
+                    <div class="work_images_3">
+                       <div class="blar">
+                        <h4>Title goes here</h4>
+                        <p> onsectetur adipisicing elit, sedo   </p>
+                        <p>eiusmod tempor incidi </p>
+                        <p>et dolorerserss eerhfre mag.</p>
+                    </div>
+                    </div>
+                    <div class="work_images_4">
+                          <div class="blar">
+                        <h4>Title goes here</h4>
+                        <p> onsectetur adipisicing elit, sedo   </p>
+                        <p>eiusmod tempor incidi </p>
+                        <p>et dolorerserss eerhfre mag.</p>
+                    </div>
+                    </div>
+
+                </div>
+
+
+                <div class="child_work_2">
+                      <div class="work_images_5">
+                          <div class="blar">
+                        <h4>Title goes here</h4>
+                        <p> onsectetur adipisicing elit, sedo   </p>
+                        <p>eiusmod tempor incidi </p>
+                        <p>et dolorerserss eerhfre mag.</p>
+                    </div>
+                    </div>
+                    <div class="work_images_6">
+                    <div class="blar">
+                        <h4>Title goes here</h4>
+                        <p> onsectetur adipisicing elit, sedo   </p>
+                        <p>eiusmod tempor incidi </p>
+                        <p>et dolorerserss eerhfre mag.</p>
+                    </div>
+                    </div>
+                    <div class="work_images_7">
+                       <div class="blar">
+                        <h4>Title goes here</h4>
+                        <p> onsectetur adipisicing elit, sedo   </p>
+                        <p>eiusmod tempor incidi </p>
+                        <p>et dolorerserss eerhfre mag.</p>
+                    </div>
+                    </div>
+                    <div class="work_images_8">
+                          <div class="blar">
+                        <h4>Title goes here</h4>
+                        <p> onsectetur adipisicing elit, sedo   </p>
+                        <p>eiusmod tempor incidi </p>
+                        <p>et dolorerserss eerhfre mag.</p>
+                    </div>
+                    </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+
+                  <!--------------------------WORK SECTION END  ----------------------------->
+
+
+                  <!--------------------------CONTACT SECTION START ----------------------------->
+
+    <section id="main_contact">
+       <div class="main_contact">
+
+       
+        <div class="sub_contact_1">
+            <div class="child_contact_1">
+                 <h2>contact me</h2>
+                <img class="work_imgs" src="images/img-04.png" alt=""> 
+                <p class="work_p_1"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt  </p>
+                <p class="work_p_2"> ut labore et dolore magna aliqua.</p>
+            </div>
+            
+           </div>
+            
+
+        </div>  
+        <!-- -------------------------------- -->
+       <div class="main_contact_2">
+
+       
+        <div class="sub_contact">
+             <div class="child_contact_2">
+                <ul>
+                    <li><a href="#"> name</a></li>
+                    <li><a href="#">email address</a></li>
+                    <li><a href="#">subject</a> </li>
+                    <li><a href="#">massage</a></li>
+                    
+                </ul>
+             
+                <button>submit</button>
+                </div>
+           </div>
+            
+
+        </div>  
+
+        <!-- ---------------------------------------- -->
+       <div class="main_contact_3">
+
+       
+        <div class="sub_contact">
+            <div class="child_contact_3">
+                <p>
+                    © MYFOLIO
+                </p>
+            </div>
+           </div>
+            
+
+        </div>  
+               
+    </section>             
+           
+
+
+
+
+
+
+                  <!--------------------------CONTACT SECTION END  ----------------------------->
+
+  
+</body>
+</html>
