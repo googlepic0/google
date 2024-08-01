@@ -8,7 +8,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+        body{
+    background-color: blueviolet;
+
+}
+#form{
+    background-color: white;
+    width: 25%;
+    margin:120px auto;
+    padding: 50px;
+    box-shadow: 10px 10px 5px rgb(82, 11, 77);
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+#btn{
+    color: white;
+    background-color: blueviolet;
+    padding: 10px;
+    font-size: large;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+@media screen and (max-width:700px;){
+    #form{
+        width: 65%;
+        padding: 40px;
+    }
+}
+
+
+
+
+
+
+    </style>
 </head>
 <body>
      <div id="form">
